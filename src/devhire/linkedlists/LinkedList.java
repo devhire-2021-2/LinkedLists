@@ -25,11 +25,7 @@ public class LinkedList<T>{
 	/**
 	 *	Cabeça da lista
 	 */
-	public Node<T> head;
-	/**
-	 *  Cauda da lista
-	 */
-	protected Node<T> tail;
+	public Node<T> head;	
 	
 	/**
 	 * Percorre a lista até o índice i, e retorna a célula nesse índice.
@@ -185,7 +181,7 @@ public class LinkedList<T>{
 		
 	}
 	/**
-	 * Console para teste da lista.	 *
+	 * Console para teste da lista.
 	 */
 	public static void main(String[] args) {
 		LinkedList<Integer> L = new LinkedList<Integer>();
