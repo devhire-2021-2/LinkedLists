@@ -12,6 +12,7 @@ public class Node<T> {
 	 * Referência para a próxima célula da lista.
 	 */
 	public Node<T> next;
+	
 	/**
 	 * Valor da célula
 	 */

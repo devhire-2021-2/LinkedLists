@@ -26,6 +26,10 @@ public class LinkedList<T>{
 	 *	Cabeça da lista
 	 */
 	public Node<T> head;
+	/**
+	 *  Cauda da lista
+	 */
+	protected Node<T> tail;
 	
 	/**
 	 * Percorre a lista até o índice i, e retorna a célula nesse índice.
@@ -214,6 +218,10 @@ public class LinkedList<T>{
 						
 					case "RD":
 						RemoveDups.Remove(L);
+						break;
+						
+					case "P":
+						Partition.part(L, scn.nextInt());
 						break;
 								
 				}	
