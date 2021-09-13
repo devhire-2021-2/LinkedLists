@@ -210,7 +210,11 @@ public class LinkedList<T>{
 					
 					case "@":
 						System.out.println(L.nodeAt(scn.nextInt()));
-						break;					
+						break;	
+						
+					case "RD":
+						RemoveDups.Remove(L);
+						break;
 								
 				}	
 				System.out.println(L);
